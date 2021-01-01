@@ -1,11 +1,16 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec 31 17:14:00 2020
+#!/bin/python3
 
-@author: einst
-"""
+import math
+import os
+import random
+import re
+import sys
 
-n=int(input())
-arr=list(map(int,input().rstrip.split()))
-arr.reverse()
-print(*arr)
+
+
+if __name__ == '__main__':
+    n = int(input())
+
+    arr = list(map(int, input().rstrip().split()))
+    arr.reverse()
+    print(*arr)
